@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>QuickNotes — Day 4</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <h1>QuickNotes</h1>
+    <p>A simple space for capturing ideas and reminders.</p>
+  </header>
+
+  <main>
+    <section class="note-card" aria-labelledby="editor-heading">
+      <h2 id="editor-heading">Notes Toolkit</h2>
+      <label for="note-text">Write your note</label>
+      <textarea id="note-text" rows="10" placeholder="Start typing your note here..." aria-describedby="char-count word-count"></textarea>
+
+      <div class="counter-row" aria-live="polite" aria-atomic="true">
+        <p id="char-count" class="counter">0 / 200 characters</p>
+        <p id="word-count" class="counter">0 words</p>
+      </div>
+
+      <div class="button-row">
+        <button id="clear-btn" type="button">Clear</button>
+        <button id="theme-toggle" type="button">Dark mode</button>
+      </div>
+      <p class="helper-text">Your draft is saved in this browser. Press Escape while writing to clear the note.</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 QuickNotes. Built as a JavaScript learning project.</p>
+  </footer>
+</body>
+</html>
