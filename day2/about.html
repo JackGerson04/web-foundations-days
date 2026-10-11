@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>QuickNotes | About</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>QuickNotes</h1>
+    <p>Your simple space for capturing ideas and reminders.</p>
+    <nav aria-label="Main navigation">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html" aria-current="page">About</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <h2>About QuickNotes</h2>
+    <p>QuickNotes is a simple note-taking concept for recording ideas, tasks, and reminders in one place. It is designed to help users organise information quickly and return to important details when they need them.</p>
+
+    <section aria-labelledby="how-to-use">
+      <h3 id="how-to-use">How to use QuickNotes</h3>
+      <ol>
+        <li>Open QuickNotes and decide what information you need to remember.</li>
+        <li>Write a short, clear note using a title or keywords where helpful.</li>
+        <li>Review your notes regularly and update or remove information that is no longer useful.</li>
+      </ol>
+    </section>
+
+    <section aria-labelledby="features">
+      <h3 id="features">Features</h3>
+      <ul>
+        <li>Quick capture of ideas, tasks, and reminders.</li>
+        <li>Simple layout that is easy to understand.</li>
+        <li>Organised information that is easy to review.</li>
+        <li>Keyboard shortcuts for common actions.</li>
+      </ul>
+    </section>
+
+    <section aria-labelledby="keyboard-shortcuts">
+      <h3 id="keyboard-shortcuts">Keyboard shortcuts</h3>
+      <table>
+        <thead>
+          <tr>
+            <th scope="col">Shortcut</th>
+            <th scope="col">Action</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Ctrl + N</td>
+            <td>Create a new note</td>
+          </tr>
+          <tr>
+            <td>Ctrl + S</td>
+            <td>Save the current note</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section aria-labelledby="send-feedback">
+      <h3 id="send-feedback">Send feedback</h3>
+      <form action="#" method="post">
+        <p>
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" autocomplete="name" required>
+        </p>
+        <p>
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" autocomplete="email" required>
+        </p>
+        <p>
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" rows="5" required></textarea>
+        </p>
+        <button type="submit">Send feedback</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 QuickNotes. Built as an HTML learning project.</p>
+  </footer>
+</body>
+</html>
